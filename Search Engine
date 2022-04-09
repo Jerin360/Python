@@ -1,0 +1,10 @@
+def search(text, word):
+    s = text.split()
+    if word in s:
+        return "Word found"
+    else:
+        return "Word not found"
+text = input()
+word = input()
+
+print(search(text, word))
